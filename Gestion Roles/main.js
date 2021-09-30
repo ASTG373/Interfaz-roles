@@ -26,7 +26,7 @@ class DataTable{
         };
 
         this.selected = [];
-        this.numberOfEntries = 5;
+        this.numberOfEntries = 15;
         this.headerButtons = headerButtons;
     }
 

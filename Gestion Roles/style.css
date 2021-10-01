@@ -38,7 +38,7 @@
     background-color: var(--dt-background-color-container);
     border-radius: var(--dt-border-radius);
     color: var(--dt-text-color);
-    width: 600px;
+    width: 100%;
     margin: 0 auto;
     font-size: 12px;
 }
@@ -162,15 +162,15 @@
     vertical-align: middle;
 }
 .datatable-container .datatable tbody tr .available::after{
-    content: "Available";
+    content: "Administrador";
     color: var(--dt-status-available-color);
 }
 .datatable-container .datatable tbody tr .away::after{
-    content: "Away";
+    content: "Usuario";
     color: var(--dt-status-away-color);
 }
 .datatable-container .datatable tbody tr .offline::after{
-    content: "Offline";
+    content: "Invitado";
     color: var(--dt-status-offline-color);
 }
 

@@ -14,12 +14,18 @@
 <body>
     <div class="body-container">
         <div>
-
-            <button class="boton-para-editar" id="open_edition">
-                Editar
-            </button>
+            <!-- Default dropend button -->
+            <div class="btn-group dropend">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="../images/gear-icon-image.png" width="20" height="20">
+                </button>
+                <ul class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
+                    <li><button class="btn boton-para-eliminar">Eliminar</button></li>
+                </ul>
+            </div>
+            
         </div>
-
         <div class="Contenedor-Pop-Up" id="Contenedor_Pop_Up">
             <div class="Pop-up">
                 <h3>Registro de roles e información de cada empleado</h3>
@@ -76,11 +82,11 @@
 
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-            crossorigin="anonymous"></script>
-        <script src="pop-up.js"></script>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="pop-up.js"></script>
 </body>
 
 </html>

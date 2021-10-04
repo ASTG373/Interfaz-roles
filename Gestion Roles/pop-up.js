@@ -12,3 +12,4 @@ close.addEventListener('click', () => {
     modalContainer.classList.remove('show');
 
 })
+// Recomiendo que cuando se junte el Front con el Back se ponga una función que genere un ID para cada rol que esté en la BD.

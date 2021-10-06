@@ -265,14 +265,14 @@ class DataTable{
         const headerButtons = this.headerButtons;
 
         headerButtons.forEach(button =>{
-            html += `<li><button id="${button.id}"><i class=""material-icons">${button.icon}</i></button></li>`;
+            html += `<li><button id="${button.id}"><i class="material-icons">${button.icon}</i></button></li>`;
         });
 
         buttonsContainer.innerHTML = html;
 
         headerButtons.forEach(button =>{
             document.querySelector("#" + button.id).addEventListener("click", button.action)
-        }); 
+        });
 
     }
     renderSearch(){

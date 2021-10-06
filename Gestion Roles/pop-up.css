@@ -1,15 +1,9 @@
 
-*{
-    box-sizing: border-box;
-}
-.body-container {
-    
-    background-color: grey;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
+.boton-para-eliminar{
+    border: 0;
+    font-size: 15px;
+    padding: 5px;
+    display: inline-block;
 }
 .boton-para-editar{
     background-color: #C9C2C8;
@@ -17,8 +11,8 @@
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     color: azure;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 5px;
     display: inline-block;
 }
 .Contenedor-Pop-Up{
@@ -48,7 +42,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-.Pop-up p{
+.Pop-up {
     opacity: 0.7;
     font-size: 16px;
 }

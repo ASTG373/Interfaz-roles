@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interfaz de manejo de roles</title>
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="pop-up.css">
 </head>
 <body>
     <div class="card text-start bg-secondary">
@@ -49,8 +48,6 @@
                 <th>Oficina</th>
                 <th>Edad</th>
                 <th>Fecha Registro</th>
-                <th>Editar</th>
-                
             </tr>
         </thead>
         <tbody>
@@ -63,77 +60,9 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td>
-                        <!-- Default dropend button -->
-                        <div class="btn-group dropend">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false"><img src="../images/gear-icon-image.png" width="10" height="10">
-                        </button>
-                        <ul class="dropdown-menu">
-                            <!-- Dropdown menu links -->
-                            <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                            <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                        </ul>
-                        </div>
-                </div>
-                <div class="Contenedor-Pop-Up" id="Contenedor_Pop_Up">
-                    <div class="Pop-up">
-                        <h3>Registro de roles e información de cada empleado</h3>
-                        <div class="tabla-empleados">
-                            <table>
-                                <tr>
-                                    <th>Estado</th>
-                                    <th>Nombre</th>
-                                    <th>Cargo</th>
-                                    <th>Oficina</th>
-                                    <th>Edad</th>
-                                    <th>Fecha</th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <form>
-                                            <input type="text" placeholder="State">
-                                        </form>
-                                    </td>
-                                    <td>
-                                        <form>
-                                            <input type="text" placeholder="Name">
-                                        </form>
-                                    </td>
-                                    <td>
-                                        <form>
-                                            <input type="text" placeholder="Cargo">
-                                        </form>
-                                    </td>
-                                    <td>
-                                        <form>
-                                            <input type="text" placeholder="Oficina">
-                                        </form>
-                                    </td>
-                                    <td>
-                                        <form>
-                                            <input type="text" placeholder="Edad">
-                                        </form>
-                                    </td>
-                                    <td>
-                                        <form>
-                                            <input type="text" placeholder="Fecha">
-                                        </form>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <span>
-                            <button id="safe_changes">Guardar cambios</button>
-                            <button id="close">Cerrar</button>
-                        </span>
-                        <div></div>
-                    </div>
-                </td>
-                
-        </tr>
-        <tr>
-            <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
+            </tr>
+            <tr>
+                <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
                 <td><span class="available"></span></td>
                 <td>102345</td>
                 <td>Felipe Escudero</td>
@@ -141,18 +70,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td>
-                    <!-- Default dropend button -->
-                    <div class="btn-group dropend">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false"><img src="../images/gear-icon-image.png" width="10" height="10">
-                        </button>
-                        <ul class="dropdown-menu">
-                            <!-- Dropdown menu links -->
-                            <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                            <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                        </ul>
-                    </div></td>
             </tr>
              <tr>
                 <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
@@ -163,17 +80,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td><!-- Default dropend button -->
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img
-                            src="../images/gear-icon-image.png" width="10" height="10">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- Dropdown menu links -->
-                        <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                        <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                    </ul>
-                </div></td>
             </tr>
             <tr>
                 <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
@@ -184,17 +90,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td><!-- Default dropend button -->
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img
-                            src="../images/gear-icon-image.png" width="10" height="10">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- Dropdown menu links -->
-                        <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                        <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                    </ul>
-                </div></td>
             </tr>
             <tr>
                 <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
@@ -205,17 +100,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td><!-- Default dropend button -->
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img
-                            src="../images/gear-icon-image.png" width="10" height="10">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- Dropdown menu links -->
-                        <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                        <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                    </ul>
-                </div></td>
             </tr>
             <tr>
                 <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
@@ -226,17 +110,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td><!-- Default dropend button -->
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img
-                            src="../images/gear-icon-image.png" width="10" height="10">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- Dropdown menu links -->
-                        <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                        <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                    </ul>
-                </div></td>
             </tr>
             <tr>
                 <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
@@ -247,17 +120,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td><!-- Default dropend button -->
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img
-                            src="../images/gear-icon-image.png" width="10" height="10">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- Dropdown menu links -->
-                        <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                        <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                    </ul>
-                </div></td>
             </tr>
             <tr>
                 <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
@@ -268,17 +130,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td><!-- Default dropend button -->
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img
-                            src="../images/gear-icon-image.png" width="10" height="10">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- Dropdown menu links -->
-                        <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                        <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                    </ul>
-                </div></td>
             </tr>
             <tr>
                 <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
@@ -289,17 +140,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td><!-- Default dropend button -->
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img
-                            src="../images/gear-icon-image.png" width="10" height="10">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- Dropdown menu links -->
-                        <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                        <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                    </ul>
-                </div></td>
             </tr>
             <tr>
                 <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
@@ -310,17 +150,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td><!-- Default dropend button -->
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img
-                            src="../images/gear-icon-image.png" width="10" height="10">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- Dropdown menu links -->
-                        <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                        <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                    </ul>
-                </div></td>
             </tr>
             <tr>
                 <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
@@ -331,17 +160,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td><!-- Default dropend button -->
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img
-                            src="../images/gear-icon-image.png" width="10" height="10">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- Dropdown menu links -->
-                        <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                        <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                    </ul>
-                </div></td>
             </tr>
             <tr>
                 <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
@@ -352,17 +170,6 @@
                 <td>Medellín</td>
                 <td>28</td>
                 <td>2020/05/01</td>
-                <td><!-- Default dropend button -->
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img
-                            src="../images/gear-icon-image.png" width="10" height="10">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- Dropdown menu links -->
-                        <li><button class="dropdown-item boton-para-editar" id="open_edition">Editar</button></li>
-                        <li><button class="btn boton-para-eliminar">Eliminar</button></li>
-                    </ul>
-                </div></td>
             </tr>
                 
         </tbody>
@@ -384,12 +191,8 @@
           <div class="footer-copyright text-center">© 2021 Copyright: Equipo10</div>
           </div>
         </div>
-      </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
+      </div>   
     <script src="main.js"></script>
-    <script src="pop-up.js"></script>
 
     <script>
         const dt = new DataTable("#datatable", [
